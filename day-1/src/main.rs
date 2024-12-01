@@ -1,7 +1,7 @@
 use std::{collections::HashMap, fs};
 
 fn main() {
-    let contents = fs::read_to_string("../input.txt")
+    let contents = fs::read_to_string("input.txt")
         .expect("Should be able to open the file");
 
     let mut vec1 = Vec::new();
